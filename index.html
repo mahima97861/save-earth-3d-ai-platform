@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Save Earth - 3D + AI Platform 🌍</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.min.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="nav">
+  <div class="logo">🌍 SaveEarth+</div>
+  <div> 3D Earth | AI Eco Assistant</div>
+</div>
+
+<!-- NETFLIX ROW -->
+<div class="row">
+  <h2>🔥 Climate Crisis</h2>
+  <div class="cards">
+
+    <div class="card" style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee')"
+      onclick="openPopup('Recycling Impact','Plastic waste is increasing rapidly. Recycling reduces landfill waste and pollution.')" >
+      <div class="overlay" >Recycling Impact</div>
+    </div>
+
+    <div class="card" style="background-image:url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e')"
+      onclick="openPopup('Deforestation','Forests are disappearing due to human activity. This affects oxygen and wildlife.')">
+      <div class="overlay">Deforestation</div>
+    </div>
+
+    <div class="card" style="background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e')"
+      onclick="openPopup('Water Crisis','Clean water is becoming scarce. Conservation is essential for survival.')">
+      <div class="overlay">Water Crisis</div>
+    </div>
+
+  </div>
+</div>
+
+<div class="row">
+  <h2>🌿 Eco Solutions</h2>
+  <div class="cards">
+
+    <div class="card" style="background-image:url('https://images.unsplash.com/photo-1472214103451-9374bd1c798e')"
+      onclick="openPopup('Plant Trees','Trees absorb CO2 and help fight global warming.')">
+      <div class="overlay">Plant Trees</div>
+    </div>
+
+    <div class="card" style="background-image:url('https://images.unsplash.com/photo-1509391366360-2e959784a276')"
+      onclick="openPopup('Clean Energy','Solar and wind energy reduce pollution and save Earth.')">
+      <div class="overlay">Clean Energy</div>
+    </div>
+
+    <div class="card" style="background-image:url('https://images.unsplash.com/photo-1520962922320-2038eebab146')"
+      onclick="openPopup('Reduce Waste','Minimizing waste helps protect ecosystems.')">
+      <div class="overlay">Reduce Waste</div>
+    </div>
+
+  </div>
+</div>
+
+<!-- 3D EARTH -->
+<div id="earthContainer"></div>
+
+<!-- AI BOX -->
+<div class="aiBox">
+  <h2>🤖 AI Sustainability Assistant</h2>
+  <div class="chat" id="chat"></div>
+  <input id="input" placeholder="Ask: How to save environment?">
+  <button onclick="askAI()">Send</button>
+</div>
+
+<!-- POPUP -->
+<div class="bgBlur" id="bgBlur" onclick="closePopup()"></div>
+
+<div class="popup" id="popup">
+  <div class="close" onclick="closePopup()">✖</div>
+  <h3 id="title"></h3>
+  <p id="desc"></p>
+</div>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
