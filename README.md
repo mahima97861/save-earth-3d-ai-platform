@@ -3,7 +3,7 @@
 An interactive web application that combines **3D Earth visualization** with an **AI-powered sustainability assistant** to spread awareness about environmental issues and solutions.
 
 ---
-Live Demo
+# Live Demo
 
 Live Dashboard:
 https://mahima97861.github.io/save-earth-3d-ai-platform/
