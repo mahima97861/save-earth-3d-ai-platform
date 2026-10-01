@@ -2,7 +2,7 @@
 function openPopup(title, desc){
   document.getElementById("popup").style.display="flex";
   document.getElementById("bgBlur").style.display="block";
-  document.getElementById("title").innerText=title;
+  document.getElementById("Title").innerText=title;
   document.getElementById("desc").innerText=desc;
 }
 
