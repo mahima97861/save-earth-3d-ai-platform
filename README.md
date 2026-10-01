@@ -1,6 +1,6 @@
 # 🌍 Save Earth - 3D + AI Platform
 
-An interactive web application that combines **3D Earth visualization** with an **AI-powered sustainability assistant** to spread awareness about environmental issues and solutions.
+An interactive web application that combines **3D Earth Visualization** with an **AI-powered sustainability assistant** to spread awareness about environmental issues and solutions.
 
 ---
 # Live Demo
